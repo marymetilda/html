@@ -42,3 +42,15 @@ there are six different types of heading tags
 - ```<img src="path of the file" alt="discription of the image">```
 - ```<a href=""></a>``` this tab is used for hyperlinks.
 - ```<blockquote cite="cite link">```quote something from another sourse/website```</blockquote>```
+
+
+## html forms
+- everything in the form should be with in ```<form></form>```
+- ```<input type="text">``` = for texts
+- ```<input type="email">```= for emails
+- ```<input type="password">```= for passwords
+- id should be unique
+- label for refers to id
+- ```name``` is important when we use radio buttons
+- for radio type thing there should be the ```value```
+
