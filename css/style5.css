@@ -1,5 +1,32 @@
 header{
+    background-color:rgb(158, 13, 8);
+    padding: 20px;
+    text-align:center;
+    color:white;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left:0;
+}
+.banner{
     position:relative;
-    left:100px;
-    top:100px;
+    
+}
+.banner img{
+    max-width:100%;
+}
+.banner .welcome{
+    background-color:orangered;
+    color:white;
+    padding: 30px;
+    position: absolute;
+    left:0;
+    top:30%;
+}
+.banner h2{
+    font-size:74px;
+}
+.banner h2 span{
+    font-size: 1.3em;
 }
