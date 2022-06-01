@@ -73,3 +73,33 @@ inline elements can be nested in block-level elements, but block level elements 
 ## cascade
 ```Inheritance```
 - HTML elements can inherit css properties that are applied to their parents.
+## positions and layout
+- static 
+- relative
+-   ```{
+    {
+    position:relative;
+    left:20px;
+    bottom:20px;
+    }```
+
+- fixed
+- ```{
+    {
+    position:fixed;
+    left:0px;
+    top:0px;
+    }
+- absolute
+
+```{
+    {
+    position:absolute;
+    left:0px;
+    top:0px;
+    }```
+
+
+
+
+- 
