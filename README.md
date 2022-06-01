@@ -21,7 +21,7 @@ Hyper text Markup Language
 - further codes should be with in ```<html></html>``` tags
 - the codes will be mainly consists of a ```<head></head> ```and a ```<body></body>```
 - inside the head there will be ```<title>```title of the web page``` </title>```
--``` <p>```paragraph tag```</p>```
+- ``` <p>```paragraph tag```</p>```
 - ```<strong>```to make the words/sentence bold```</strong>```
 - ```<em>```to emphasise something```</em>```
 - ```<small>``` to make word/something small```</small>```
@@ -29,7 +29,7 @@ Hyper text Markup Language
 there are six different types of heading tags
 - h1 will be the most important and h6 is the least important
 
-- ```<ul>```un ordered list```</ul>```(list will be with bulli points)
+- ```<ul>```un ordered list```</ul>```(list will be with bullet points)
 - inside ```<ul></ul>``` we write series of```<li></li>```
 - each ```<li>```tag is a single listed item
 - ```<ol></ol>``` refers to ordered list(list will be with numbers)
