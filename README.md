@@ -34,7 +34,7 @@ there are six different types of heading tags
 - each ```<li>```tag is a single listed item
 - ```<ol></ol>``` refers to ordered list(list will be with numbers)
 - ```<div></div>``` used to divide contents into sections or groups 
-- ```<span>```span tag```</span>```
+- ```33<span>```span tag```</span>```
 - ```<br>```tag is used for line breaking (it doesn't need a closing tag)
 - ```<hr>``` tag is used for horizontal line(rule)(it also doesn't have a closing tag)
 - ```<img>```is used to upload images(it also don't have closing tag)
@@ -53,4 +53,18 @@ there are six different types of heading tags
 - label for refers to id
 - ```name``` is important when we use radio buttons
 - for radio type thing there should be the ```value```
+
+
+## css
+- css-style sheets
+- a list of CSS rules/rule sets
+- It consists of selectors, curly braces and declarations
+## inline elements
+- Don't take up any more room than their content needs
+- span, img, strong, em, a and more...
+## block-level elements
+- Take up the whole width of a page regardless of content
+- p, div, h1, h2, h3, ul, li and more... 
+
+inline elements can be nested in block-level elements, but block level elements cannot be nested inside in-line elements.
 
