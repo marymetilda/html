@@ -67,4 +67,5 @@ there are six different types of heading tags
 - p, div, h1, h2, h3, ul, li and more... 
 
 inline elements can be nested in block-level elements, but block level elements cannot be nested inside in-line elements.
+- block level elements can have margin all the way around the elements, but inline elements can only have margins left and the right of the elements.
 
