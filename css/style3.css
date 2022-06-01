@@ -1,0 +1,18 @@
+div p{
+    color:palevioletred;
+}
+a[href]{
+    background-color:rgb(207, 207, 68);
+}
+a[href="https://en.wikipedia.org/wiki/Star"]{
+    color:red;
+    
+}
+a[href*="Planet"]{
+    color:black;
+    border:2px solid violet;
+    
+}
+a[href$=".com"]{
+font-size:30px;
+}

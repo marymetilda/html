@@ -69,3 +69,7 @@ there are six different types of heading tags
 inline elements can be nested in block-level elements, but block level elements cannot be nested inside in-line elements.
 - block level elements can have margin all the way around the elements, but inline elements can only have margins left and the right of the elements.
 
+
+## cascade
+```Inheritance```
+- HTML elements can inherit css properties that are applied to their parents.
