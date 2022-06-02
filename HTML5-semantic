@@ -13,3 +13,9 @@ Defines a bit of content which makes up an article (e.g. a blog post)
 
 ```<footer>```
 - For the footer of a website.
+## Pseudo Classes
+- style elements when they are in a particular state
+- hover, focus, first child of a parent
+- ```:hover   :focus   :first-child```
+## pseudo elements
+- pseudo elements allows to inject dynamic content.
