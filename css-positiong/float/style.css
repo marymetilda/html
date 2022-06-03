@@ -1,7 +1,7 @@
 body{
     background:rgb(165, 240, 165);
 }
-.wrapper{
+/* .wrapper{
     background:rgb(230, 185, 192);
     max-width:960px;
     margin: 0 auto;
@@ -12,7 +12,7 @@ body{
     display: block;
     clear:both;
 
-}
+} */
 
 .services:after{
     content:"";
