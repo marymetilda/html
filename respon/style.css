@@ -227,15 +227,46 @@ footer ul{
 @media screen and (max-width:480px){
 
 
-    .burger.nav{
+    .burger-nav{
         display:block;
         height:40px;
         width:100%;
         background:url(images/burger.png)no-repeat 98% center;
-        background-color:darkblue;
+        background-color:rgb(231, 62, 62);
         cursor:pointer;
     }
 
+
+    header .wrapper{
+        width:100%;
+        padding:0;
+    }
+
+    header nav ul{
+        overflow:hidden;
+        background:rgb(70, 67, 67);
+        height:0;
+        padding:0;
+    }
+
+    header nav ul.open{
+        height:auto;
+    }
+
+    header nav ul li{
+        float:none;
+        text-align:left;
+        width:100%;
+        margin:0;
+    }
+
+    header nav ul li a{
+        color:white;
+        padding:10px;
+        border-bottom:1px solid rgb(31, 30, 30);
+        display:block;
+        margin:0;
+    }
     
     #featured li{
     width: 90%;
@@ -251,7 +282,7 @@ footer ul{
     #home-menu li{
         float: none;
         width:96%;
-        margin:30px 2% |important;
+        margin:30px 2% !important;
     }
 
     #main-banner img{
