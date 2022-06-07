@@ -1,0 +1,37 @@
+header{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.banner img{
+    max-width:100%;
+
+}
+.grid h1{
+    position: absolute;
+    left: 25%;
+    top: 140px;
+    color:white;
+    font-size: 60px;
+}
+
+.grid form{
+    position: absolute;
+    left:35%;
+    top: 250px;
+    padding:100px;
+    
+}
+
+nav{
+    padding:20px;
+}
+
+nav li{
+    width:25%;
+    display: inline-block;
+    font-size: 24px;
+}
