@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .intro {
+            height: 90vh;
+            background-color: red;
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        .nav {
+            width: 100%;
+            background-color: green;
+            display: flex;
+            /* flex-direction:row-reverse; */
+            justify-content: right;
+        }
+
+        .logo {
+            /* float: left; */
+            width: 100%;
+            background: purple;
+            text-align: center;
+        }
+
+        .doordash {
+            /* display: none; */
+        }
+
+        .signin {
+            margin-right: 1rem;
+            background-color: chartreuse;
+            padding: 1rem;
+        }
+
+        .signup {
+            /* float: right; */
+            background-color: aqua;
+        }
+        .intro-content {
+            background-color: gold;
+            display: flex;
+            flex-direction: column;
+            /* padding-right: 30rem;
+            padding-left: 30rem; */
+            width: 60vw;
+            margin: auto;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="intro">
+        <div class="nav">
+            <!-- <div></div> -->
+            <div class="logo">
+                <svg width="56" height="32" viewBox="0 0 99.5 56.5" fill="#ffffff">
+                    <path
+                        d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16">
+                    </path>
+                </svg>
+                <text class="doordash">doordash</text>
+            </div>
+            <a class="signin">signin</a>
+            <a class="signup">signup</a>
+        </div>
+        <div class="intro-content">
+            <h2>Restaurants and more, delivered to your door</h2>
+            <input type="text">
+            <a>sign in</a>
+        </div>
+    </div>
+</body>
+
+</html>
