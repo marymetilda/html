@@ -52,15 +52,21 @@
 
 .logo {
     width: 100%;
-    /* background-color: blue; */
+    display:flex;
+    align-items:center;
     text-align: center;
     padding: 10px;
-    margin-top:10px;
-    margin-left:212px;
+    margin-top:25px;
+    margin-left:535px;
     
 }
 .logo1{
-    width:40px;
+    width:27px;
+}
+
+.logo_icon1{
+    width:45px;
+    height:auto;
 }
 
 .headline {
@@ -197,6 +203,8 @@
     letter-spacing: 0.05ch;
 }
 
+    
+
 .contents{
     padding-top:41px;
     padding-bottom:41px;
@@ -204,8 +212,10 @@
     padding-right:0;
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-between; 
     margin-top: 75px;
+
+
 }
 
 .dasher{
@@ -347,13 +357,15 @@
     display: block;
 }
 .content1{
-    /* display:flex;
+    display:flex;
     flex-flow: row-reverse;
     justify-content:center;
     gap:100px;
-    align-items: center; */
+    align-items: center;
     margin-top:170px;
 }
+
+
 
 .content1_image{
     margin-top:100px;
@@ -364,11 +376,14 @@
     top:1050px;
     margin-right:40px;
     z-index:200;
+
+
 }
 
 .all_in_one_app{
     text-align: left;
-    margin-left:50px;
+    margin-left:40px;
+    margin-right:900px;
 }
 
 .content1_headline{
@@ -409,6 +424,8 @@
     line-height: 25px;
 }
 
+
+
 .content2{
     background:rgb(255, 240,237);
     display:flex;
@@ -416,19 +433,24 @@
     justify-content: center;
     gap:60px;
     align-items: center;
-    margin-top:130px;
+    margin-top:100px;
     position: relative;
     padding-bottom: 80px;
+    margin-right:-20px;
 }
+
 
 .content2_image{
     margin-top:100px;
     height:75vh;
     width:auto;
+    margin-right: 70px;
+    margin-left: -20px;
 }
 
 .flavor{
     text-align:left;
+    margin-right:0px;
     }
 
 .content2_headline{
@@ -474,6 +496,7 @@
     background-color: rgb(25, 25, 25);
 }
 
+
 .ending_section1{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -483,6 +506,8 @@
     gap: 100px;
     
 }
+
+
 
 .cities_headline{
     color:white;
@@ -494,6 +519,7 @@
     padding-left: 125px;
 }
 
+
 .cities{
     column-count: 3;
     margin-top: 17px;  
@@ -502,6 +528,7 @@
     line-height: 27px;
    
 }
+
 
 .city_name{
     text-decoration: none;
@@ -531,11 +558,13 @@
     margin-left:-126px;
 }
 
+
 .cuisines{
     column-count: 2;
     column-gap: 121px;
     line-height: 27px;
 }
+
 
 .near_me{
     text-decoration: none;
@@ -779,3 +808,324 @@
     opacity:1;
 }
 
+/* media queries */
+
+
+@media screen and (max-width:1280px) {
+
+.intro{
+    height:570px;
+
+}
+
+ .logo{
+    margin-left:385px;
+    margin-top: 9px;
+   }
+    
+.logo1{
+    width: 27px;
+}
+
+.logo_icon1{
+    width:40px;
+}
+
+.sign_in_text{
+    font-size:18px;
+    line-height:24px;
+}
+
+.sign_up_text{
+    font-size: 16px;
+}
+
+.banner{
+    margin-top: 38px;
+    margin-left: 16px;
+}
+
+.search_bar{
+    width:42vw;
+    margin-left:-14px;
+    margin-top:39px;
+
+}
+
+.search{
+    width:35vw;
+}
+
+.arrow{
+    background-color:white;
+    color:rgb(73, 73, 73);
+}
+
+.saved_address{
+    margin-left: -58px;
+}
+
+.contents{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 24px;
+    
+}
+
+.dasher{
+    margin-left:0px;
+    display:flex;
+    flex-direction:row;
+    row-gap: 10px;
+    margin-right:51px;
+}
+
+.dasher_image{
+    height:124px;
+    width:124px;
+    margin-left:40px;
+    margin-right:81px;
+}
+
+.dasher_heading{
+    text-align: left;
+}
+
+
+.dasher_text{
+    text-align: left;
+}
+
+
+.dasher_link{
+    text-align: left;
+}
+
+.partner{
+    margin-left:0px;
+    display:flex;
+    flex-direction:row;
+    row-gap: 10px;
+    row-gap: 10px;
+    margin-right:51px;
+    margin-top:30px;
+}
+
+.partner_image{
+    height:124px;
+    width:124px;
+    margin-left:40px;
+    margin-right:56px;
+}
+
+.partner_heading{
+    text-align:left;
+    margin-left:0px;
+}
+
+.partner_text{
+    text-align:left;
+    margin-left:0px;
+}
+
+.partner_link{
+    text-align:left;
+    margin-left:0px;
+}
+
+.app{
+    margin-left:59px;
+    display:flex;
+    flex-direction:row;
+    row-gap:10px;
+    margin-right:30px;
+    margin-top:30px;
+}
+
+.app_image{
+    height:124px;
+    width:124px;
+    margin-left:40px;
+    margin-right:56px;
+
+}
+
+.app_heading{
+    text-align: left;
+}
+
+.app_text{
+    text-align:left;
+}
+
+.app_link{
+    text-align:left;
+}
+
+.content1{
+     display:flex;
+    flex-flow: row-reverse;
+    justify-content:center;
+    align-items: center;
+    margin-top:0px;
+    column-gap:54px;
+}
+
+
+.content1_image{
+    margin-top:0px;
+    height:65vh;
+    width:auto;
+    margin-right:-56px;
+    z-index:200;
+    position:static;
+}
+
+.all_in_one_app{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.content1_headline{
+    font-size:24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+}
+
+
+.content1_text{
+    font-size:14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.content2{
+        background:rgb(255, 240,237);
+        display:flex;
+        flex-flow: row;
+        justify-content: center;
+        gap:0px;
+        align-items: center;
+        margin-top:-55px;
+        padding-bottom: 80px;
+    }
+
+    .content2_image{
+        height:60vh;
+    }
+
+    .content2_headline{
+    font-size:24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    }
+
+    .content2_text{
+        font-size:14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+
+    .ending_section1{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 65px;
+        
+    }
+
+    .cities{
+        column-count: 3;
+        margin-top: 17px;  
+        column-gap: 60px;
+        margin-left: -336px;
+        line-height: 27px;
+       
+    }
+
+
+    .cuisines{
+        column-count: 2;
+        column-gap: 103px;
+        line-height: 27px;
+    }
+
+    .ending_section2{
+        gap:109px;
+    }
+    
+
+    .know_us{
+        margin-left: -34px;
+    }
+
+    .ending_section3{
+        padding:2px 0px;
+        align-items:center;
+        padding-bottom: 32px;
+        padding-top: 32px;
+        margin-bottom: 15px;
+    }
+
+    .footer_last_section1{
+        margin-right: 78px;
+    }
+    .terms{
+        margin-right: 10px;
+    }
+    .privacy{
+        margin-right: 10px;
+    }
+    .collection{
+        margin-right:10px;
+    }
+    .locations{
+        margin-right: 10px;
+    }
+
+    .fb{
+        margin:5px;
+    }
+
+    .tw{
+        margin:5px;
+    }
+
+    .insta{
+        margin:5px;
+    }
+}
+
+@media screen and (max-width:912px){
+
+    .intro{
+        height:425px;
+    }
+    
+    .logo3{
+        display:none;
+    }
+
+    .logo_icon1{
+        width: 53px;
+    }
+    .main_heading{
+        font-size:32px;
+        line-height: 40px;
+    }
+
+    .search_bar{
+        width:47vw;
+        margin-top:56px;
+    }
+}
