@@ -436,7 +436,7 @@
     margin-top:100px;
     position: relative;
     padding-bottom: 80px;
-    margin-right:-20px;
+    margin-right:-15px;
 }
 
 
@@ -445,7 +445,7 @@
     height:75vh;
     width:auto;
     margin-right: 70px;
-    margin-left: -20px;
+    margin-left: -15px;
 }
 
 .flavor{
@@ -588,8 +588,15 @@
     gap: 147px;
 }
 
+.get{
+    display:flex;
+    flex-direction:row;
+    margin-right:7px;
+}
+
 .know_us_section1{
-    margin-left:3px;
+    margin-left:0px;
+    margin-right:72px;
 }
 
 .know_us_headline{
@@ -615,7 +622,8 @@
 }
 
 .help_section{
-    margin-left:-70px;
+    margin-left:16px;
+    margin-right:36px;
 }
 
 .help_headline{
@@ -641,7 +649,7 @@
 }
 
 .business_section{
-    margin-left:-38px;
+    margin-left:74px;
 }
 
 .business_headline{
@@ -702,14 +710,19 @@
 }
 
 .ending_section3{
-    display:flex;
-    justify-content:center;
-    padding:32px;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom:32px;
+    margin-bottom: 15px;
 }
+
 
 .footer_last_section1{
     margin-right: 126px;
+    margin-left:82px;
 }
+
+
 
 .logo2{
     margin-right: -20px;
@@ -778,10 +791,13 @@
     text-decoration: none;
 }
 
+
+
 .fb{
-    margin:10px;
+    margin:5px;
     opacity:0.5;
     cursor:pointer;
+    margin-left:40px;
 }
 
 .fb:hover{
@@ -789,7 +805,7 @@
 }
 
 .tw{
-    margin:10px;
+    margin:5px;
     opacity:0.5;
     cursor:pointer;
 }
@@ -799,7 +815,7 @@
 }
 
 .insta{
-    margin:10px;
+    margin:5px;
     opacity:0.5;
     cursor:pointer;
 }
@@ -842,7 +858,7 @@
 
 .banner{
     margin-top: 38px;
-    margin-left: 16px;
+    margin-left: 0px;
 }
 
 .search_bar{
@@ -975,15 +991,15 @@
 
 .content1_image{
     margin-top:0px;
-    height:65vh;
-    width:auto;
-    margin-right:-56px;
+    height:60%;
+    width:60%;
+    margin-right:-13px;
     z-index:200;
     position:static;
 }
 
 .all_in_one_app{
-    margin-left: 0px;
+    margin-left: 66px;
     margin-right: 0px;
 }
 
@@ -1015,7 +1031,12 @@
     }
 
     .content2_image{
-        height:60vh;
+        height:66vh;
+        margin-left:0px;
+    }
+
+    .flavor{
+        margin-right:49px;
     }
 
     .content2_headline{
@@ -1065,8 +1086,16 @@
     }
     
 
+    .get{
+        margin-right:-79px;
+    }
+
     .know_us{
         margin-left: -34px;
+    }
+
+    .know_us_headline{
+        margin-left:-35px;
     }
 
     .ending_section3{
@@ -1077,8 +1106,12 @@
         margin-bottom: 15px;
     }
 
+    .logo2{
+        margin-left:-65px;
+    }
+
     .footer_last_section1{
-        margin-right: 78px;
+        margin-right: 0px;
     }
     .terms{
         margin-right: 10px;
@@ -1092,9 +1125,17 @@
     .locations{
         margin-right: 10px;
     }
+    .copyright{
+        margin-right: 100px;
+    }
+
+    .ending_section_3{
+        margin-left: -65px;
+    }
 
     .fb{
         margin:5px;
+        margin-left:190px;
     }
 
     .tw{
@@ -1109,7 +1150,7 @@
 @media screen and (max-width:912px){
 
     .intro{
-        height:425px;
+        height:423px;
     }
     
     .logo3{
@@ -1118,14 +1159,309 @@
 
     .logo_icon1{
         width: 53px;
+        margin-top:177px;
+        margin-left:-25px;
+        width:57px;
     }
+
+    .sign_up_text{
+        height:40px;
+        width:100%;
+    }
+
+
     .main_heading{
         font-size:32px;
         line-height: 40px;
+        margin-top:62px;
+        letter-spacing:-0.04ch;
+        margin-left: -16px;
     }
 
     .search_bar{
-        width:47vw;
-        margin-top:56px;
+        width:52vw;
+        margin-top:33px;
+        margin-left:10px;
+    }
+
+    .search{
+        width:40vw;
+
+    }
+    .saved_address{
+        margin-left: -4px;
+    }
+
+    .content1_image{
+        height:45vh;
+        margin-right:-13px;
+    }
+
+    .all_in_one_app br{
+        display:none;
+    }
+
+    .all_in_one_app{
+        margin-left:68px;
+        margin-top:-59px;
+    }
+
+    .content1_text{
+        margin-right:38px;
+    }
+
+    .content1_button{
+        height:34px;
+        width:100px;
+    }
+
+    .button_text{
+        font-size:14px;
+    }
+
+    .content2{
+        margin-top:-15px;
+    }
+
+    .content2_image{
+        height:48vh;
+    }
+
+    .content2_text br{
+        display:none;
+    }
+
+    .content2_text{
+        margin-right: 9px;
+    }
+
+    .content2_button{
+        height:34px;
+        width:137px;
+    }
+
+    .content2_link{
+        font-size:14px;
+    }
+
+    .ending_section1{
+        flex-direction:column;
+    }
+
+    .cities_headline{
+        margin-left:-111px;
+    }
+
+    .cities{
+        margin-left:13px;
+        column-gap:0px;
+    }
+
+    .section_cuisines{
+        margin-right:10px;
+        margin-left: 10px;
+    }
+
+    .cuisines{
+        column-gap: 0px;
+    }
+
+    .ending_section2{
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    
+    .get{
+        margin-right:0px;
+        margin-left:10px;
+    }
+
+    .app_icons_section{
+        margin-left:0px;
+        margin-top:40px;
+        margin-bottom: -195px;
+    }
+    
+    .know_us_section1{
+        margin-left: 21px;
+        margin-right:154px;
+    }
+
+    .help_section{
+        margin-left:42px;
+        margin-right:55px;
+    }
+
+    .business_section{
+        margin-left:110px;
+    }
+
+    .copyright{
+        margin-right:0px;
+    }
+
+    .footer_last_section2{
+        position:absolute;
+        left:60%;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .logo_icon1{
+    margin-top: 626%;
+    margin-left: -390%;
+    width: 57px;
+    }
+
+    .search_bar{
+        width:40vw;
+        border-left: 20px;
+    }
+
+    .dasher_image{
+        height:88px;
+        width:88px;
+    }
+
+    .partner_image{
+        height:88px;
+        width:88px;
+    }
+
+    .app_image{
+        height:88px;
+        width:88px;
+    }
+
+    .dasher_link{
+        font-size:14px;
+    }
+
+    .partner_link{
+        font-size:14px;
+    }
+
+    .app_link{
+        font-size:14px;
+    }
+
+    .content1{
+        position:absolute;
+        top:1060px;
+        flex-flow: column;
+        z-index:200;
+    }
+
+    .content1_image{
+        height: 56vh;
+        margin-right: -250px;
+        width: auto;
+    }
+
+    .all_in_one_app{
+        padding:208px;
+        margin-left:-27px;
+        margin-top:-280px;
+    }
+
+    .content2{
+        flex-flow: column;
+        margin-top:238px;
+    }
+    
+    .content2_image{
+        height:55vh;
+        margin-left:-177px;
+        margin-top: 352px;
+    }
+
+    .flavor{
+        padding-top:30px;
+        padding-bottom: 0px;
+        padding-right: 263px;
+        padding-left:225px;
+        margin-left: -38px;
+    }
+
+    .content2_text{
+        margin-right: 9px;
+    }
+
+    .ending_section1{
+        flex-direction: row;
+    }
+
+    .section_cities{
+        margin-right:140px;
+        margin-left:-46px;
+        text-align:center;
+    }
+
+    .cities{
+        column-count:1;
+        
+    }
+
+    .section_cuisines{
+        text-align:center;
+    }
+
+    .cuisines{
+        column-count: 1;
+    }
+    .get{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .know_us_section1{
+        margin-left:0px;
+        margin-top:25px;
+        text-align: center;
+        margin-right:0px;
+    }
+    .know_us_headline{
+        margin-left:0px;
+    }
+
+    .know_us{
+        margin-left:0px;
+        margin-top: 15px;
+    }
+
+    .help_section{
+        margin-top:25px;
+        margin-left:0px;
+        text-align: center;
+        margin-right:0px;
+    }
+
+    .let_us_help{
+        margin-top:15px;
+    }
+
+    .business_section{
+        margin-left:0px;
+        text-align: center;
+        margin-top:25px;
+    
+    }
+
+    .business_items{
+        margin-top: 15px;
+    }
+
+    .ending_section3{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
+
+    .footer_last_section2{
+        position:static;
+    }
+    .fb{
+        margin-left:5px;
     }
 }
