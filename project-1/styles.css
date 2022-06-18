@@ -166,6 +166,10 @@
     margin-left: 7px;
 }
 
+.image2{
+    display:none;
+}
+
 .search{
     padding: 0px;
     width:25vw;
@@ -359,10 +363,12 @@
 .content1{
     display:flex;
     flex-flow: row-reverse;
-    justify-content:center;
-    gap:100px;
+    justify-content: center;
+    gap:60px;
     align-items: center;
-    margin-top:170px;
+    margin-top:40px;
+    margin-left:-290;
+    position: relative;
 }
 
 
@@ -371,11 +377,12 @@
     margin-top:100px;
     height:75vh;
     width:auto;
-    position:absolute;
-    right:0;
-    top:1050px;
+    /* position:absolute; */
+    /* right:0; */
+    /* top:1050px; */
     margin-right:40px;
     z-index:200;
+   
 
 
 }
@@ -383,7 +390,8 @@
 .all_in_one_app{
     text-align: left;
     margin-left:40px;
-    margin-right:900px;
+    margin-right:20px;
+   
 }
 
 .content1_headline{
@@ -433,7 +441,7 @@
     justify-content: center;
     gap:60px;
     align-items: center;
-    margin-top:100px;
+    margin-top:-50px;
     position: relative;
     padding-bottom: 80px;
     margin-right:-15px;
@@ -995,12 +1003,14 @@
     width:60%;
     margin-right:-13px;
     z-index:200;
-    position:static;
+    margin-left: -290px;
 }
 
 .all_in_one_app{
     margin-left: 66px;
     margin-right: 0px;
+    padding-right: 309px;
+    padding-left:0px;
 }
 
 .content1_headline{
@@ -1347,8 +1357,8 @@
     }
 
     .content1{
-        position:absolute;
-        top:1060px;
+        /* position:absolute;
+        top:1060px; */
         flex-flow: column;
         z-index:200;
     }
@@ -1463,5 +1473,142 @@
     }
     .fb{
         margin-left:5px;
+    }
+}
+
+@media screen and (max-width:375px){
+
+    .intro{
+        height:459px;
+    }
+
+    .logo_icon1{
+        margin-left:30px;
+    }
+
+    .main_heading{
+        margin-left:0px;
+        letter-spacing:-0.08ch;
+    }
+
+    .search_bar{
+        width:71vw;
+        border-radius:17px;
+    }
+    .search{
+        width:51vw;
+    }
+
+    .image1{
+        display:none;
+    }
+
+    .image2{
+        padding-left: 0px;
+        margin-top: 9px;
+        margin-left: 7px;
+        width:40px;
+        display: inline;
+    }
+
+    .dasher{
+        row-gap:0px;
+        margin-right: 0px;
+    }
+
+    .dasher_image{
+        margin-left:-29px;
+        margin-right: 72px;
+    }
+
+    .dasher_text br{
+        display:none;
+    }
+
+    .partner{
+        row-gap:0px;
+        margin-right: 0px;
+    }
+
+    .partner_image{
+        margin-left:-29px;
+        margin-right: 72px;
+    }
+
+    .partner_text br{
+        display:none;
+    }
+
+    .app{
+        row-gap:0px;
+        margin-right:0px;
+        margin-left:6px;
+    }
+    
+    .app_image{
+        margin-left: -29px;
+        margin-right:72px;
+    }
+
+    .app_text br{
+        display:none;
+    }
+
+    .app_heading{
+        margin-right:35px;
+    }
+
+    .app_text{
+        margin-right:7px;
+    }
+
+    .content1_image{
+        margin-right:0px;
+        margin-left:80px;
+        height:32vh;
+    }
+
+    .all_in_one_app{
+        padding:0px;
+        padding-right:63px;
+        margin-left:21px;
+        margin-top: -46px;
+    }
+
+    .content2{
+        margin-top:-297px;
+    }
+
+    .content2_image{
+        height:32vh;
+        margin-left:-2
+    }
+
+    .flavor{
+        margin-right: 28px;
+        padding-right:0px;
+        padding-left:0px;
+        margin-left:13px;
+    }
+
+    .ending_section1{
+        gap:0px;
+    }
+
+    .section_cities{
+        margin-right:110px;
+        margin-left:0px;
+    }
+
+    .privacy{
+        margin-left:20px;
+    }
+
+    .collection{
+        margin-left:20px;
+    }
+    
+    .locations{
+        margin-left:10px;
     }
 }
