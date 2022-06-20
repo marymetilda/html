@@ -1,0 +1,261 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.nav{
+    height:50px;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_section1{
+    display:flex;
+}
+
+.nav_section2{
+    display:flex;
+}
+
+.nav_section3{
+    display:flex;
+}
+
+
+.burger_icon{
+    display:none;
+}
+.azure_in_the_nav{
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a1a1f;
+    font-weight:800;
+}
+
+.azure_in_the_nav:hover{
+    text-decoration:underline;
+}
+
+.window_icon{
+    height:20px;
+    width:auto;
+}
+
+.explore{
+    display:inline-block;
+}
+
+.explore_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.explore_text:hover{
+    text-decoration: underline;
+}
+
+.products{
+    display:inline-block;
+}
+
+.products_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.products_text:hover{
+    text-decoration:underline;
+}
+
+.solution{
+    display:inline-block;
+}
+
+.solutions_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.solutions_text:hover{
+    text-decoration:underline;
+}
+
+.pricing{
+    display:inline-block;
+}
+
+.pricing_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.pricing_text:hover{
+    text-decoration:underline;
+}
+
+.partners{
+    display:inline-block;
+}
+
+.partners_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size: 13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.partner_text:hover{
+    text-decoration:underline;
+}
+
+.resources{
+    display:inline-block;
+}
+
+.resources_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.resources_text:hover{
+    text-decoration:underline;
+}
+
+.search{
+    width:120px;
+    background-color:rgb(230, 240, 238);
+    border-radius:5px;
+    border:.1px solid #27272b;
+    line-height:1.5;
+    height:30px;
+}
+
+.search_input{
+    width:100px;
+    border-style: none;
+    background-color:transparent;
+}
+
+.docs{
+    display:inline-block;
+}
+
+.docs_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.docs_text:hover{
+    text-decoration:none;
+}
+
+.support{
+    display:inline-block;
+}
+
+.support_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.support_text:hover{
+    text-decoration:underline;
+}
+
+.contact_sales{
+    display:inline-block;
+}
+
+.contact_sales_text{
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-size:13px;
+    font-weight:400;
+    color:#1a1a1f;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.contact_sales_text:hover{
+    text-decoration:underline;
+}
+
+.account{
+    height:30px;
+    background-color:#89c402;
+    border:1px solid #6f9e02;
+    border-radius:4px;
+    color:#1a1a1f;
+    display:inline-block;
+    
+}
+
+.account_text{
+    font-size:12px;
+    font-weight:600;
+    line-height:1;
+    text-align:center;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+
+.search_icon{
+    text-align:right;
+    margin-top:-19px;
+}
+
+.sign_in{
+    font-size:13px;
+    font-weight:400;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height:1;
+    color:#1a1a1f;
+    text-decoration:none;
+}
+
+.sign_in:hover{
+    text-decoration:underline;
+}
+
+
+
+
+ .banner1{
+    width: 100vw;
+    height:72vh;
+background-image: url("https://azurecomcdn.azureedge.net/cvt-493701653c65826061dc17c66113eb5d9e70cd831a30707034222f935a1a140d/images/page/home/hero-desktop.webp");
+background-size:cover;
+} 
