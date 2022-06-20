@@ -920,13 +920,15 @@
     flex-direction:row;
     row-gap: 10px;
     margin-right:51px;
+    text-align: left;
+    padding-left:0px;
 }
 
 .dasher_image{
     height:124px;
     width:124px;
     margin-left:40px;
-    margin-right:81px;
+    margin-right:64px;
 }
 
 .dasher_heading{
@@ -936,6 +938,7 @@
 
 .dasher_text{
     text-align: left;
+    margin-left:0px;
 }
 
 
