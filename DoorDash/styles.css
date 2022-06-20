@@ -56,8 +56,8 @@
     align-items:center;
     text-align: center;
     padding: 10px;
-    margin-top:25px;
-    margin-left:535px;
+    margin-top:13px;
+    margin-left:522px;
     
 }
 .logo1{
@@ -65,8 +65,12 @@
 }
 
 .logo_icon1{
-    width:45px;
+    width:43px;
     height:auto;
+}
+
+.logo3{
+    margin-bottom:2px;
 }
 
 .headline {
@@ -76,50 +80,51 @@
 
 
 .sign_in {
-    margin-top:18px;
+    margin-top:11px;
     padding: 10px;
     display: grid;
     place-items: center;
     white-space: no-wrap;
     text-decoration: none;
+    margin-right:6px;
 
 }
 
 .sign_in_text {
     white-space: nowrap;
-    font-size: 20px;
+    font-size: 18px;
     font-weight:700;
     color:white;
     margin-right:-27px;
     font-family: DD-TTNorms;
+    letter-spacing:-0.04ch;
 }
 
 .sign_up {
-    margin-top:18px;
+    margin-top:11px;
     text-decoration: none;
     display: grid;
     place-items: center;
     padding:0 2rem;
-   
-
-
-
+    margin-left: -4px;
+    margin-right: 2px;
 
 }
 
 .sign_up_text {
     background-color: white;
     border: solid white;
-    color: black;
+    color: rgb(73, 73, 73);
     border-radius: 100px;
     text-align: center;
-    font-size: 18px;
-    padding: 0.3rem 0.8rem;
+    font-size: 16px;
+    padding: 0.45rem 0.95rem;
     white-space: nowrap;
     font-weight: 700;
     text-decoration: none;
     margin-right: 7px;
     font-family: DD-TTNorms;
+    letter-spacing:-0.04ch;
     
 }
 
@@ -135,12 +140,14 @@
 .main_heading{
     color:white;
     font-size: 64px;
-    margin-top:45px;
+    margin-top:43px;
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight:700;
     letter-spacing:-0.04ch;
     line-height:76px;
     -webkit-font-smoothing:antialiazed;
+    margin-right:14px;
+    max-width: 668px;
 }
 .search_bar{
     background-color: white;
@@ -150,7 +157,7 @@
     width: 32vw;
     display: flex;
     justify-content: space-between;
-    margin-top:40px;
+    margin-top:32px;
     border-style:none;
     /* border-color:2px solid rgb(21, 21, 218); */
     
@@ -203,8 +210,8 @@
     font-family:DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     font-weight:500;
-    margin-top:11px;
-    letter-spacing: 0.05ch;
+    margin-top:23px;
+    letter-spacing: 0.04ch;
     text-decoration: none;
     border-bottom: 1px solid white;
     line-height: 12px;
@@ -226,7 +233,8 @@
 }
 
 .dasher{
-    margin-left:70px;
+    /* margin-left:70px; */
+    padding-left: 75px;
 }
 
 .dasher_image{
@@ -243,7 +251,7 @@
     display: block;
     text-align: center;
     color: black;
-    margin-left:-23px;
+    /* margin-left:-23px; */
 }
 
 .dasher_text{
@@ -267,7 +275,7 @@
     color: rgb(235, 23, 0);
     text-decoration: none;
     text-align: center;
-    margin-left: -23px;
+    /* margin-left: -23px; */
     display:block;
     margin-top: 8px;
 }
@@ -275,7 +283,7 @@
 .partner_image{
     height: 154px;
     width: 154px;
-    margin-left:-12px;
+    /* margin-left:-12px; */
 }
 
 .partner_heading{
@@ -287,7 +295,7 @@
     display: block;
     text-align: center;
     color:black;
-    margin-left:-78px;
+    /* margin-left:-78px; */
 
 }
 
@@ -300,7 +308,7 @@
     line-height: 24px;
     letter-spacing: 0ch;
     display: block;
-    margin-left: -52px;
+    /* margin-left: -52px; */
 }
 
 .partner_link{
@@ -314,17 +322,18 @@
     text-align: center;
     display: block;
     margin-top:8px;
-    margin-left: -36px;
+    /* margin-left: -36px; */
 }
 
 .app{
-    margin-right: 75px;
+    /* margin-right: 75px; */
+    padding-right:80px;
 }
 
 .app_image{
     height: 154px;
     width: 154px;
-    margin-left: 39px;
+    /* margin-left: 39px; */
    
 }
 
@@ -337,7 +346,7 @@
     display: block;
     text-align: center;
     color:black;
-    margin-right: 88px;
+    /* margin-right: 88px; */
 }
 
 .app_text{
@@ -349,7 +358,7 @@
     line-height: 24px;
     letter-spacing: 0ch;
     display: block;
-    margin-right: 86px;
+    /* margin-right: 86px; */
 }
 
 .app_link{
@@ -363,7 +372,7 @@
     text-align: center;
     display: block;
     margin-top:10px;
-    margin-right: 65px;
+    /* margin-right: 65px; */
 }
 .content1{
     display:flex;
