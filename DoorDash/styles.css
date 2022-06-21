@@ -1103,7 +1103,19 @@
         line-height: 27px;
        
     }
+
+    .section_cities{
+        padding-left:243px;
+    }
+
+    .cities_headline{
+        margin-left:-328px;
+    }
     
+
+    .section_cuisines{
+        padding-right:0px;
+    }
 
 
     .cuisines{
@@ -1297,14 +1309,22 @@
         flex-direction:column;
     }
 
-    .cities_headline{
-        margin-left:-111px;
+    /* .cities_headline{ */
+        /* margin-left:-111px; */
         
-    }
+    /* } */
 
     .cities{
-        margin-left:13px;
+        margin-left:0px;
         column-gap:0px;
+    }
+
+    .cities_headline{
+        margin-left:0px;
+    }
+
+    .section_cities{
+        padding-left:0px;
     }
 
     .section_cuisines{
@@ -1325,7 +1345,7 @@
         margin-right:0px;
         margin-left:0px;
         padding-top: 10px;
-        column-gap:176px;
+        column-gap:215px;
     }
 
     .app_icons_section{
