@@ -403,7 +403,7 @@ background-size:cover;
     text-align:center;
     text-decoration:none;
     line-height:1.5;
-    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
 
 }
 
@@ -415,7 +415,7 @@ background-size:cover;
 
 .on_premises{
     width:100%;
-    height:90px;
+    height:120px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -427,8 +427,8 @@ background-size:cover;
 }
 
 .microsoft{
-    width:48%;
-    height:368px;
+    width:47.4%;
+    height:352px;
     background-image:url(images/join-now.png);
     background-repeat:no-repeat;
     background-position:50% 50%;
@@ -441,6 +441,7 @@ background-size:cover;
     box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
     color:#4c4c51;
     cursor:pointer;
+    margin-left:18px;
 }
 
 .microsoft:hover .microsoft_heading {
@@ -478,12 +479,13 @@ background-size:cover;
 .devolep{
     display:flex;
     gap:10px;
-    width:98%;
-    height:188px;
+    width:100%;
+    height:177px;
     cursor:pointer;
     border:1px solid transparent;
     border-radius:6px;
     box-shadow:0 2px 5px rgb(0 0 0 /14%);
+    border-radius:6px;
    
     
 }
@@ -493,8 +495,8 @@ background-size:cover;
 }
 
 .devolep_image{
-    width:170px;
-    height:188px;
+    width:159px;
+    height:177px;
 }
 
 .develop_heading{
@@ -525,15 +527,20 @@ background-size:cover;
     gap:15px;
 }
 
+.devolep_image{
+    border-radius:6px 0px 0px 6px;
+}
+
 .accelerate{
     display:flex;
     gap:10px;
-    width:98%;
-    height:188px;
+    width:100%;
+    height:145px;
     cursor:pointer;
     border:1px solid transparent;
     border-radius:6px;
     box-shadow:0 2px 5px rgb(0 0 0 /14%);
+
 }
 
 .accelerate:hover .accelerate_heading{
@@ -541,8 +548,9 @@ background-size:cover;
 }
 
 .accelerate_image{
-    width:183px;
-    height:188px;
+    width:159px;
+    height:145px;
+    border-radius:6px 0px 0px 6px;
 }
 
 .accelerate_card{
@@ -579,5 +587,510 @@ background-size:cover;
 .card_section1_1{
     display:flex;
     flex-direction:column;
-    gap:20px;
+    gap:28px;
+}
+
+.new_to_azure{
+    color:#1a1a1f;
+    font-weight:600;
+    font-size:16px;
+    line-height:1.5;
+    font-family:
+    'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.overview{
+    background-color:transparent;
+    border:1px solid #0078d4;
+    border-radius:4px;
+    color:#0062ad;
+    font-size:14px;
+    font-weight:600;
+    padding:10px 16px;
+    text-align:center;
+    text-decoration:none;
+    line-height:1.5;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.overview:hover{
+    text-decoration:underline;
+    background-color:#0078d4;
+    color:white;
+}
+
+
+.new_to_azure_section{
+    height:186px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:34px;
+    align-items:center;
+}
+
+.start{
+    color:#1a1a1f;
+    text-align:left;
+    font-size:16px;
+    font-weight:500;
+    line-height:1.2;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.Featured{
+    height:58px;
+    width:90%;
+    display:flex;
+    align-items:center;
+    text-align:left;
+    cursor:pointer;
+    background-color:transparent;
+    border-left:4px solid #0062ad;
+}
+
+.Featured:hover{
+    text-decoration:underline;
+}
+
+.featured_text{
+    color:#1a1a1f;
+    font-weight:600;
+    text-decoration:none;
+    font:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.AI{
+    background-color:transparent;
+    color:#4c4c51;
+    font-size:16px;
+    font-weight: 400;
+    text-decoration:none;
+}
+
+.AI:hover{
+    text-decoration:underline;
+    color:#0062ad
+}
+
+.compute{
+    background-color:transparent;
+    color:#4c4c51;
+    font-size:16px;
+    font-weight: 400;
+    text-decoration:none;
+}
+
+.compute:hover{
+    text-decoration:underline;
+    color:#0062ad;
+}
+
+.containers{
+    background-color:transparent;
+    color:#4c4c51;
+    font-size:16px;
+    font-weight: 400;
+    text-decoration:none;
+}
+
+.containers:hover{
+    text-decoration:underline;
+    color:#0062ad;
+}
+
+.hybrid{
+    background-color:transparent;
+    color:#4c4c51;
+    font-size:16px;
+    font-weight: 400;
+    text-decoration:none;
+}
+
+.hybrid:hover{
+    text-decoration:underline;
+    color:#0062ad;
+}
+
+.internet{
+    background-color:transparent;
+    color:#4c4c51;
+    font-size:16px;
+    font-weight: 400;
+    text-decoration:none;
+}
+
+.internet:hover{
+    text-decoration:underline;
+    color:#0062ad;
+}
+
+.all_products{
+    background-color:transparent;
+    color:#0062ad;
+    font-size:14px;
+    font-weight: 600;
+    text-decoration:none;
+}
+
+.all_products:hover{
+    text-decoration:underline;
+    color:#4c4c51;
+}
+
+.featured_list{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.featured_section{
+    width:20%;
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.build_apps_image{
+    height:36px;
+    width:36px;
+}
+
+.build_apps_text{
+    font-size:16px;
+    color:#4c4c51;
+    cursor:pointer;
+    text-align:center;
+    font-weight:400;
+    line-height:1.5;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.build_link{
+    color:#0062ad;
+    text-decoration:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.build_apps{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    align-items:center;
+}
+
+.build_and_deploy{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:50px;
+    width:80%;
+    height:300px;
+    cursor:pointer;
+    background-color:#fff;
+    border-radius:6px;
+    box-shadow:0 2px 5px rgb(0 0 0 / 14%);
+    color:#4c4c51;
+    border:1px solid transparent;
+}
+
+.create_apps_image{
+    height:36px;
+    width:36px;
+}
+
+.create_apps_text{
+    font-size:16px;
+    color:#4c4c51;
+    cursor:pointer;
+    text-align:center;
+    font-weight:400;
+    line-height:1.5;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.create_apps{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    align-items:center;
+}
+
+.create_apps_link{
+    color:#0062ad;
+    text-decoration:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.create_apps_SQL{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:50px;
+    width:80%;
+    height:300px;
+    cursor:pointer;
+    background-color:#fff;
+    border-radius:6px;
+    box-shadow:0 2px 5px rgb(0 0 0 / 14%);
+    color:#4c4c51;
+    border:1px solid transparent;
+}
+
+.make_apps_image{
+    height:36px;
+    width:36px;
+}
+
+.make_apps_text{
+    font-size:16px;
+    color:#4c4c51;
+    cursor:pointer;
+    text-align:center;
+    font-weight:400;
+    line-height:1.5;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.make_apps{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    align-items:center;
+}
+
+.make_apps_link{
+    color:#0062ad;
+    text-decoration:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.make_and_scale{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:50px;
+    width:80%;
+    height:300px;
+    cursor:pointer;
+    background-color:#fff;
+    border-radius:6px;
+    box-shadow:0 2px 5px rgb(0 0 0 / 14%);
+    color:#4c4c51;
+    border:1px solid transparent;
+}
+
+.build_create_make_apps{
+    display:flex;
+    gap:50px;
+}
+
+.git_hub_image{
+    height:36px;
+    width:36px;
+}
+.git_hub_text{
+    font-size:16px;
+    color:#4c4c51;
+    cursor:pointer;
+    text-align:center;
+    font-weight:400;
+    line-height:1.5;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.git_hub{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    align-items:center;
+}
+
+.git_hub_link{
+    color:#0062ad;
+    text-decoration:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.git_hub_security{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:50px;
+    width:80%;
+    height:300px;
+    cursor:pointer;
+    background-color:#fff;
+    border-radius:6px;
+    box-shadow:0 2px 5px rgb(0 0 0 / 14%);
+    color:#4c4c51;
+    border:1px solid transparent;
+}
+
+.unify_image{
+    height:36px;
+    width:36px;
+}
+
+.unify_text{
+    font-size:16px;
+    color:#4c4c51;
+    cursor:pointer;
+    text-align:center;
+    font-weight:400;
+    line-height:1.5;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.unify_infrastructure{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    align-items:center;
+}
+
+.unify_link{
+    color:#0062ad;
+    text-decoration:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.unify{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:50px;
+    width:80%;
+    height:300px;
+    cursor:pointer;
+    background-color:#fff;
+    border-radius:6px;
+    box-shadow:0 2px 5px rgb(0 0 0 / 14%);
+    color:#4c4c51;
+    border:1px solid transparent;
+}
+
+.share_code_image{
+    height:36px;
+    width:36px;
+}
+
+.share_code_text{
+    font-size:16px;
+    color:#4c4c51;
+    cursor:pointer;
+    text-align:center;
+    font-weight:400;
+    line-height:1.5;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.share_code{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    align-items:center;
+}
+
+.share_code_link{
+    color:#0062ad;
+    text-decoration:none;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.share_code_track{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:50px;
+    width:80%;
+    height:300px;
+    cursor:pointer;
+    background-color:#fff;
+    border-radius:6px;
+    box-shadow:0 2px 5px rgb(0 0 0 / 14%);
+    color:#4c4c51;
+    border:1px solid transparent;
+}
+
+.git_unify_share{
+    display:flex;
+    gap:50px;
+}
+
+.build_git{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    width:80%;
+}
+
+.featured_build{
+    display:flex;
+    gap:50px;
+}
+
+.screen_image{
+    height:600px;
+    border-top:28px;
+    border-left:28px;
+    border-bottom:28px;
+    border-right:0px;
+    border-color:black;
+    border-style:solid;
+    border-radius:12px;
+    box-shadow:0 10px 20px rgb(0 0 0 / 14%);
+}
+
+.screen_text{
+    color:#0062ad;
+    font-size:14px;
+    padding-left:50px;
+}
+
+.screen_image_section{
+    width:17%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.screen_image_section:hover{
+    transition:transform .5s;
+
 }
