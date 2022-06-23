@@ -637,10 +637,20 @@ background-size:cover;
     font-weight:500;
     line-height:1.2;
     font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    width:98%;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 14px;
+}
+
+.featured_section{
+    padding-left:9px;
 }
 
 .Featured{
-    height:58px;
+    height:50px;
     width:90%;
     display:flex;
     align-items:center;
@@ -658,7 +668,8 @@ background-size:cover;
     color:#1a1a1f;
     font-weight:600;
     text-decoration:none;
-    font:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-left:11px;
 
 }
 
@@ -743,14 +754,15 @@ background-size:cover;
 .featured_list{
     display:flex;
     flex-direction: column;
-    gap:50px;
+    gap:40px;
+    padding-left:14px;
 }
 
 .featured_section{
     width:20%;
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:32px;
 }
 
 .build_apps_image{
@@ -783,8 +795,9 @@ background-size:cover;
 .build_apps{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:25px;
     align-items:center;
+    padding-top:25px;
 }
 
 .build_and_deploy{
@@ -792,8 +805,8 @@ background-size:cover;
     flex-direction:column;
     align-items: center;
     gap:50px;
-    width:80%;
-    height:300px;
+    width:208px;
+    height:248px;
     cursor:pointer;
     background-color:#fff;
     border-radius:6px;
@@ -820,8 +833,9 @@ background-size:cover;
 .create_apps{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:25px;
     align-items:center;
+    padding-top:25px;
 }
 
 .create_apps_link{
@@ -841,8 +855,8 @@ background-size:cover;
     flex-direction:column;
     align-items: center;
     gap:50px;
-    width:80%;
-    height:300px;
+    width:208px;
+    height:248px;
     cursor:pointer;
     background-color:#fff;
     border-radius:6px;
@@ -869,8 +883,9 @@ background-size:cover;
 .make_apps{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:25px;
     align-items:center;
+    padding-top:25px;
 }
 
 .make_apps_link{
@@ -889,9 +904,9 @@ background-size:cover;
     display:flex;
     flex-direction:column;
     align-items: center;
-    gap:50px;
-    width:80%;
-    height:300px;
+    gap:30px;
+    width:208px;
+    height:248px;
     cursor:pointer;
     background-color:#fff;
     border-radius:6px;
@@ -902,7 +917,7 @@ background-size:cover;
 
 .build_create_make_apps{
     display:flex;
-    gap:50px;
+    gap:29px;
 }
 
 .git_hub_image{
@@ -922,8 +937,9 @@ background-size:cover;
 .git_hub{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:25px;
     align-items:center;
+    padding-top:25px;
 }
 
 .git_hub_link{
@@ -941,9 +957,9 @@ background-size:cover;
     display:flex;
     flex-direction:column;
     align-items: center;
-    gap:50px;
-    width:80%;
-    height:300px;
+    gap:25px;
+    width:208px;
+    height:248px;
     cursor:pointer;
     background-color:#fff;
     border-radius:6px;
@@ -970,8 +986,9 @@ background-size:cover;
 .unify_infrastructure{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:25px;
     align-items:center;
+    padding-top:25px;
 }
 
 .unify_link{
@@ -990,8 +1007,8 @@ background-size:cover;
     flex-direction:column;
     align-items: center;
     gap:50px;
-    width:80%;
-    height:300px;
+    width:208px;
+    height:248px;
     cursor:pointer;
     background-color:#fff;
     border-radius:6px;
@@ -1018,8 +1035,9 @@ background-size:cover;
 .share_code{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:25px;
     align-items:center;
+    padding-top:25px;
 }
 
 .share_code_link{
@@ -1037,9 +1055,9 @@ background-size:cover;
     display:flex;
     flex-direction:column;
     align-items: center;
-    gap:50px;
-    width:80%;
-    height:300px;
+    gap:23px;
+    width:208px;
+    height:248px;
     cursor:pointer;
     background-color:#fff;
     border-radius:6px;
@@ -1050,47 +1068,247 @@ background-size:cover;
 
 .git_unify_share{
     display:flex;
-    gap:50px;
+    gap:29px;
 }
 
 .build_git{
     display:flex;
     flex-direction:column;
-    gap:50px;
+    gap:23px;
     width:80%;
+}
+
+.featured_build_1{
+    display:flex;
+    gap:83px;
 }
 
 .featured_build{
     display:flex;
-    gap:50px;
+    gap:55px;
+}
+
+.screen_image_img{
+    height:470px;
 }
 
 .screen_image{
-    height:600px;
+    height:470px;
     border-top:28px;
     border-left:28px;
     border-bottom:28px;
     border-right:0px;
     border-color:black;
     border-style:solid;
-    border-radius:12px;
+    border-radius:12px 0px  0px 12px;
     box-shadow:0 10px 20px rgb(0 0 0 / 14%);
+    
 }
 
 .screen_text{
     color:#0062ad;
     font-size:14px;
     padding-left:50px;
+    padding-bottom:65px;
+    line-height: 1.5;
 }
 
 .screen_image_section{
-    width:17%;
+    width:22%;
+    overflow: hidden;
     display:flex;
     flex-direction:column;
     gap:10px;
+    cursor:pointer;
+   
 }
 
 .screen_image_section:hover{
-    transition:transform .5s;
+    transition: transform .5s;
+    width:25%;
+    
 
+}
+
+
+.start_section{
+    background-color:#f8f9fa;
+}
+
+.innovating_with_azure{
+    color:#1a1a1f;
+    font-size:24px;
+    font-weight:600;
+    line-height:1.2;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    height:130px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.costomers_images{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.NBA_button{
+    border:none;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:3px solid #0078d4;
+    padding:12px;
+    background-color:transparent;
+    height:84px;
+    width:150px;
+    overflow:visible;
+}
+
+.NBA{
+    filter:none;
+}
+
+.NBA_button:hover{
+    background-color:#cdd6df;
+}
+
+.pepsico_button{
+    filter:grayscale(100%);
+    border:none;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:3px solid transparent;
+    padding:12px;
+    background-color:transparent;
+    height:84px;
+    width:150px;
+    overflow:visible;
+}
+
+.pepsico_button:hover{
+    filter:none;
+    background-color:#cdd6df;
+}
+
+.nhs_button{
+        filter:grayscale(100%);
+        border:none;
+        cursor:pointer;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-bottom:3px solid transparent;
+        padding:12px;
+        background-color:transparent;
+        height:84px;
+        width:150px;
+        overflow:visible;
+}
+
+.nhs{
+    width:118px;
+    height:auto;
+}
+
+.nhs_button:hover{
+    filter:none;
+    background-color:#cdd6df;
+}
+
+.bosch_button{
+        filter:grayscale(100%);
+        border:none;
+        cursor:pointer;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-bottom:3px solid transparent;
+        padding:12px;
+        background-color:transparent;
+        height:84px;
+        width:150px;
+        overflow:visible;
+}
+
+.bosch{
+    width:130px;
+    height:auto;
+}
+
+.bosch_button:hover{
+    filter:none;
+    background-color:#cdd6df;
+}
+
+.gel_button{
+        filter:grayscale(100%);
+        border:none;
+        cursor:pointer;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-bottom:3px solid transparent;
+        padding:12px;
+        background-color:transparent;
+        height:84px;
+        width:150px;
+        overflow:visible;
+}
+
+.gel_button:hover{
+    filter:none;
+    background-color:#cdd6df;
+}
+
+.innovation_section{
+    padding-bottom:10px;
+}
+
+.to_bring_fans{
+    background-image: url(images/nba-desktop.webp);
+    height:600px;
+    position:relative;
+}
+
+.to_bring{
+    font-size:20px;
+    font-weight:400;
+    line-height:1.3;
+    color:#f8f9fa;
+    font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.case_study_text{
+    color:#f8f9fa;
+    text-decoration:underline;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    background-color:transparent;
+}
+
+.case_study_text:hover{
+    text-decoration:none;
+}
+
+.to{
+    background-color:rgba(26, 26, 31, .94);
+    height:200px;
+    width:560px;
+    border-radius:6px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    padding-left:30px;
+    position:absolute;
+    top:350px;
+    left:20px;
 }
