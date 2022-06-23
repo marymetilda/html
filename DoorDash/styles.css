@@ -936,7 +936,7 @@
     margin-left:0px;
     display:flex;
     flex-direction:row;
-    gap:30px;
+    gap:128px;
     margin-right:0px;
     text-align: left;
     padding-left:0px;
@@ -970,7 +970,7 @@
     margin-left:0px;
     display:flex;
     flex-direction:row;
-    gap:30px;
+    gap:61px;
     margin-right:0px;
     margin-top:30px;
 }
@@ -1001,13 +1001,15 @@
     margin-left:0px;
     display:flex;
     flex-direction:row;
-    gap:30px;
+    gap:60px;
     margin-right:0px;
-    margin-top:0px;
+    margin-top:30px;
+    padding-right:0px;
 }
 
 .app1{
     margin-left:0px;
+    margin-right:0px;
 }
 
 .app_image{
@@ -1613,13 +1615,17 @@
     }
 
     .dasher{
-        row-gap:0px;
+        gap:25px;
         margin-right: 0px;
     }
 
+    .dasher1{
+        margin-left:0px;
+    }
+
     .dasher_image{
-        margin-left:-29px;
-        margin-right: 72px;
+        margin-left:0px;
+        margin-right:0px;
     }
 
     .dasher_text br{
@@ -1627,13 +1633,13 @@
     }
 
     .partner{
-        row-gap:0px;
+        gap:25px;
         margin-right: 0px;
     }
 
     .partner_image{
-        margin-left:-29px;
-        margin-right: 72px;
+        margin-left:0px;
+        margin-right:0px;
     }
 
     .partner_text br{
@@ -1641,14 +1647,14 @@
     }
 
     .app{
-        row-gap:0px;
+        gap:25px;
         margin-right:0px;
-        margin-left:6px;
+        margin-left:0px;
     }
     
     .app_image{
-        margin-left: -29px;
-        margin-right:72px;
+        margin-left:0px;
+        margin-right:0px;
     }
 
     .app_text br{
@@ -1656,11 +1662,11 @@
     }
 
     .app_heading{
-        margin-right:35px;
+        margin-right:0px;
     }
 
     .app_text{
-        margin-right:7px;
+        margin-right:0px;
     }
 
     .content1_image{
@@ -1693,11 +1699,23 @@
     }
 
     .ending_section1{
-        gap:0px;
+        gap:18px;
+        margin-left:0px;
+        margin-right:0px;
     }
 
     .section_cities{
-        margin-right:110px;
+        margin-right:0px;
+        margin-left:0px;
+    }
+
+    .cities{
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+    .section_cuisines{
+        margin-right:0px;
         margin-left:0px;
     }
 
@@ -1711,5 +1729,9 @@
     
     .locations{
         margin-left:10px;
+    }
+
+    .footer_last_section1{
+        margin-left:88px;
     }
 }
