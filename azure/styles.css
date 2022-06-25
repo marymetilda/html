@@ -8,7 +8,7 @@
     width:100%;
     display:flex;
     align-items: center;
-    gap:287px;
+    gap:225px;
 }
 .nav_section1{
     display:flex;
@@ -23,7 +23,7 @@
 
 .nav_section_1_2{
     display:flex;
-    gap:20px;
+    gap:15px;
     align-items: center;
 }
 
@@ -74,7 +74,10 @@
 }
 
 .explore{
-    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 .explore_text{
@@ -90,8 +93,19 @@
     text-decoration: underline;
 }
 
+.blue-arrow{
+    height:12px;
+    width:10px;
+    transform:rotate(90Deg);
+    filter:grayscale(100);
+    
+}
+
 .products{
-    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 .products_text{
@@ -108,7 +122,10 @@
 }
 
 .solution{
-    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 .solutions_text{
@@ -125,7 +142,10 @@
 }
 
 .pricing{
-    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 .pricing_text{
@@ -142,7 +162,10 @@
 }
 
 .partners{
-    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 .partners_text{
@@ -159,7 +182,10 @@
 }
 
 .resources{
-    display:inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 .resources_text{
@@ -289,10 +315,30 @@
 }
 
 
-.division2{
+.division2 {
     height:47px;
     width:100%;
     background-color:#0078d4;
+    display: flex;
+    align-items: center;
+    gap:4px;
+    justify-content: center;
+}
+
+.arrow{
+    height:12px;
+    width:10px;
+    padding-left: 0;
+    cursor:pointer;
+}
+
+.arrow-container {
+    width: 20px;
+}
+
+.arrow:hover {
+    padding-left: 10px;
+    transition: all 0.5s;
 }
 
 .division2_text{
@@ -303,12 +349,13 @@
     font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
     display:flex;
     justify-content: center;
-    padding-top:17px;
 }
 
-.division2_text:hover{
+.division2_text:hover {
     text-decoration:underline;
 }
+
+
 
 
 
@@ -758,6 +805,10 @@ background-size:cover;
     padding-left:14px;
 }
 
+.featured_list a {
+    white-space: nowrap;
+}
+
 .featured_section{
     width:20%;
     display:flex;
@@ -1135,11 +1186,21 @@ background-size:cover;
 .featured_build_1{
     display:flex;
     gap:83px;
+    width: 75vw;
+    min-width: 75vw;
+
 }
 
 .featured_build{
     display:flex;
-    gap:55px;
+    gap:20px;
+    /* width: 100vw; */
+    overflow: hidden;
+}
+
+.screen-main{
+    width:22%;
+    
 }
 
 .screen_image_img{
@@ -1157,6 +1218,7 @@ background-size:cover;
     border-radius:12px 0px  0px 12px;
     box-shadow:0 10px 20px rgb(0 0 0 / 14%);
     
+    
 }
 
 .screen_text{
@@ -1168,20 +1230,25 @@ background-size:cover;
 }
 
 .screen_image_section{
-    width:22%;
+    width:100%;
     overflow: hidden;
     display:flex;
     flex-direction:column;
     gap:10px;
     cursor:pointer;
+    margin-left:25px;
+   
    
 }
 
-.screen_image_section:hover{
-    transition: transform .5s;
+.screen-main:hover{
     width:25%;
-    
+}
 
+.screen-main:hover .screen_image_section{
+   transition:all .5s ease-in-out;
+   /* width:100%; */
+   margin:0px;
 }
 
 
@@ -2013,8 +2080,560 @@ background-size:cover;
     width:250px;
     padding:10px;
     align-items:center;
+    border-radius:4px;
 }
 
 .mobile_app:hover .mobile_app_text{
     text-decoration:underline;
 }
+
+.tw_image{
+    width:25px;
+    height:auto;
+}
+
+.tw_image:hover{
+    opacity:0.75;
+}
+
+.insta_image{
+    width:25px;
+    height:auto;
+}
+
+.insta_image:hover{
+    opacity:0.75;
+}
+
+.linkedin_image{
+    width:25px;
+    height:auto;
+}
+
+.linkedin_image:hover{
+    opacity: 0.75;
+}
+
+.youtube_image{
+    width:25px;
+    height:auto;
+}
+
+.youtube_image:hover{
+    opacity: 0.75;
+}
+
+.footer_section1{
+    display:flex;
+    gap:30px;
+    align-items: baseline;
+    padding-left:20px;
+    padding-top:40px;
+}
+
+.footer_explore_headline{
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    color:#1a1a1f;
+   font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.what{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.what:hover{
+    text-decoration:underline;
+}
+
+.started{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.started:hover{
+    text-decoration:underline;
+}
+
+.global{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.global:hover{
+    text-decoration:underline;
+}
+
+.datacenter{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.datacenter:hover{
+    text-decoration:underline;
+}
+
+.trust{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.trust:hover{
+    text-decoration:underline
+}
+
+.enablement{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.enablement:hover{
+    text-decoration:underline;
+}
+
+.customer{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.customer:hover{
+    text-decoration:underline;
+}
+
+.footer_explore{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.product_headline{
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    color:#1a1a1f;
+   font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.product{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.product:hover{
+    text-decoration:underline;
+}
+
+
+.pricing{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.pricing:hover{
+    text-decoration:underline;
+}
+
+.free{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.free:hover{
+    text-decoration:underline;
+}
+
+.flexible{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.flexible:hover{
+    text-decoration:underline;
+}
+
+.cloud{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.cloud:hover{
+    text-decoration:underline;
+}
+
+.optimize{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.optimize:hover{
+    text-decoration:underline;
+}
+
+.footer_products{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.solutions_headline{
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    color:#1a1a1f;
+   font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.solutions{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.solutions:hover{
+    text-decoration:underline;
+}
+
+.resources{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.resources:hover{
+    text-decoration:underline;
+}
+
+.architectures{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.architectures:hover{
+    text-decoration:underline;
+}
+
+.support{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.support:hover{
+    text-decoration:underline;
+}
+
+.demo{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.demo:hover{
+    text-decoration:underline;
+}
+
+.footer_solutions{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.partners_headline{
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    color:#1a1a1f;
+   font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.market{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.market:hover{
+    text-decoration:underline;
+}
+
+.partner{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.partner:hover{
+    text-decoration:underline;
+}
+
+.technology{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.technology:hover{
+    text-decoration:underline;
+}
+
+.footer_partners{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.footer_headline{
+    font-size:14px;
+    font-weight:600;
+    line-height:1.3;
+    color:#1a1a1f;
+   font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.footer_link{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.footer_link:hover{
+    text-decoration:underline;
+}
+
+.footer_section2{
+    display:flex;
+    gap:70px;
+    padding-left:20px;
+    padding-top:40px;
+}
+
+.footer{
+    background-color:#f4f5f6;
+}
+
+.footer_section3{
+    display:flex;
+    gap:238px;
+}
+
+.footer_section_3_2{
+    display: flex;
+    gap:20px;
+}
+
+.copy_right{
+    font-weight:600;
+    font-size: 12px;
+    color:#1a1a1f;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.footer_section_4{
+    display:flex;
+    gap:20px;
+    justify-content: flex-end;
+    padding-right:20px;
+}
+
+.change_langauge{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.langauge{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding-left:10px;
+}
+
+.lan{
+    background-color:#fff;
+    color:#1a1a1f;
+    line-height:1.2;
+    font-size:14px;
+    font-weight:400;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+.select_button{
+    padding:5px;
+    height:36px;
+    width:220px;
+    border:1px solid #747479;
+    overflow:visible;
+    background-color:#fff;
+}
+
+@media screen and (max-width:1280px){
+    .nav_section_2_2{
+        display:none;
+    }
+
+    .nav_section_2_3{
+        display:none;
+    }
+}
+
+
+
+
