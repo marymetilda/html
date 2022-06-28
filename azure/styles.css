@@ -8,7 +8,7 @@
     width:100%;
     display:flex;
     align-items: center;
-    gap:17vw;
+    justify-content: space-between;
 }
 .nav_section1{
     display:flex;
@@ -53,7 +53,7 @@
 }
 
 
-.burger_icon{
+.hamburger_icon{
     display:none;
 }
 .azure_in_the_nav{
@@ -1267,6 +1267,10 @@ background-size:cover;
    margin:0px;
 }
 
+.arrow_text_section1{
+    display: none;
+}
+
 
 .start_section{
     background-color:#f8f9fa;
@@ -1423,6 +1427,9 @@ background-size:cover;
     font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
 
 }
+.to_1{
+    display: none;
+}
 
 .case_study{
     display:flex;
@@ -1456,6 +1463,10 @@ background-size:cover;
     position:absolute;
     top:340px;
     left:20px;
+}
+
+.bluedots{
+    display: none;
 }
 
 .modern{
@@ -1853,6 +1864,9 @@ background-size:cover;
     padding-top:60px;
     padding-left:20px;
 }
+.icon_section{
+    display:none;
+}
 
 .see_how_text_section{
     height:210px;
@@ -1866,6 +1880,9 @@ background-size:cover;
     gap:20px;
     padding-left:20px;
     padding-top:25px;
+}
+.see_how_text_section_1{
+    display: none;
 }
 
 .see_how_text{
@@ -2022,7 +2039,7 @@ background-size:cover;
     padding-left:24px;
 }
 
-.contact_specialist_text{
+.contact_specialist_text1{
     color:#f8f9fa;
     cursor:pointer;
     font-size:16px;
@@ -2030,6 +2047,11 @@ background-size:cover;
     line-height:1.5;
     font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
     padding-left:24px;
+}
+
+
+.contact_specialist_text2{
+    display: none;
 }
 
 .contact_specialist:hover .contact_specialist_text{
@@ -2583,10 +2605,45 @@ background-size:cover;
     font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
-.footer_link:hover{
+.contact_us{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.contact_us:hover{
     text-decoration:underline;
 }
 
+.contact_us_1{
+    display:none;
+}
+
+
+.footer_link1{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.footer_link:hover{
+    text-decoration:underline;
+}
+.footer_link1:hover{
+    text-decoration:underline;
+}
 .privacy1{
     color:#1a1a1f;
     text-decoration:none;
@@ -2632,6 +2689,10 @@ background-size:cover;
     gap:70px;
     padding-left:20px;
     padding-top:40px;
+}
+
+.plus{
+    display:none;
 }
 
 .footer{
@@ -2706,11 +2767,11 @@ background-size:cover;
     background-color:#fff;
 }
 
-@media screen and (max-width:1278px){
+@media screen and (max-width:1280px){
 
-    .nav{
-        gap:31vw;
-    }
+    /* .nav{
+        gap:31vw; */
+    /* } */
     .nav_section_2_2{
         display:none;
     }
@@ -2976,7 +3037,7 @@ background-size:cover;
     }
 
     .innovate_faster_image{
-        width:47.5vw;
+        width:48vw;
     }
 
     .innovate_faster_text br{
@@ -3117,7 +3178,8 @@ background-size:cover;
     }
 
     .footer_section2{
-        gap:32px;
+        justify-content: space-between;
+        padding:20px;
     }
 
     .select_button{
@@ -3125,7 +3187,8 @@ background-size:cover;
     }
     
     .footer_section3{
-        gap:17vw;
+       justify-content: space-between;
+       padding:20px;
         padding-top: 36px;
     }
 
@@ -3159,6 +3222,124 @@ background-size:cover;
 }
 
 @media screen and (max-width:1024px){
+    .build{
+        max-width:580px;
+    }
+
+    .on_premises{
+        font-size: 15px;
+    }
+
+    .devolep{
+        width:44vw;
+    }
+
+    .accelerate{
+        width:44vw;
+    }
+
+    .see_how_text_section{
+        height:240px;
+    }
+
+    .see_how_text{
+        max-width: 487px;
+    }
+
+    .see_how_section{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .start_building_headline{
+        max-width: 250px;;
+    }
+    .contact_specialist_text1{
+        display: none;
+    }
+    .contact_specialist_text2{
+        max-width: 250px;
+        display: block;
+        color:#f8f9fa;
+        cursor:pointer;
+        font-size:16px;
+        font-weight:400;
+        line-height:1.5;
+        font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+        padding-left:24px;  
+    }
+
+    .what{
+        display:none;
+    }
+    .started{
+        display: none;
+    }
+    .global{
+        display: none;
+    }
+    .datacenter{
+        display: none;
+    }
+    .trust{
+        display: none;
+    }
+    .enablement{
+        display: none;
+    }
+    .customer{
+        display: none;
+    }
+    .product{
+        display: none;
+    }
+    .pricing{
+        display: none;
+    }
+    .free{
+        display: none;
+    }
+    .flexible{
+        display: none;
+    }
+    .cloud{
+        display: none;
+    }
+    .optimize{
+        display: none;
+    }
+    .solutions{
+        display: none;
+    }
+    .resources{
+        display: none;
+    }
+    .architectures{
+        display: none;
+    }
+    .support{
+        display: none;
+    }
+    .demo{
+        display: none;
+    }
+    .market{
+        display: none;
+    }
+    .partner{
+        display: none;
+    }
+    .technology{
+        display: none;
+    }
+    .footer_link{
+        display: none;
+    }
+
+    .footer_section2{
+        gap:0px;
+        justify-content: space-between;
+    }
+
     .terms1{
         display: none;
     }
@@ -3181,18 +3362,493 @@ background-size:cover;
     }
 
     .footer_section3{
-        gap:26vw;
+        justify-content: space-between;
+        padding:0px 20px;
+        padding-top:20px;
+    }
+    .footer_section_3_2{
+        gap:16px;
     }
 }
 
-@media screen and (max-width:914px){
-    .nav{
-        gap:27vw;
+@media screen and (max-width:955px){
+    .division2_text{
+        font-size: 13px;
     }
 
     .banner{
         background-image: url(images/hero-tablet.webp);
-        height:34vh;
+        height:66vh;
+    }
+    .build{
+        max-width: 590px;
+        line-height: 1.5;
+    }
+
+    .screen-main{
+        display: none;
+    }
+
+    .build_and_deploy{
+        width:30%;
+        height:248px;
+        gap:3%;
+        
+    }
+    .build_apps_text{
+        max-width:150px;
+    }
+    .build_link{
+        max-width: 151px;
+    }
+    .create_apps_SQL{
+        width:30%;
+        height:248px;
+        gap:3%;
+       
+    }
+
+    .create_apps_text{
+        max-width: 150px;
+    }
+    .create_apps_link{
+        max-width: 140px;
+    }
+
+
+    .make_and_scale{
+        width:30%;
+        height:248px;
+        gap:3%;
+        
+    }
+
+    .make_apps_text{
+        max-width: 145px;
+    }
+
+    .make_apps_link{
+        max-width: 125px;
+    }
+
+    .git_hub_security{
+        width:30%;
+        height:248px;
+        gap:3%;
+    }
+    .git_hub_text{
+        max-width: 155px;
+    }
+    .git_hub_link{
+        max-width: 125px;
+    }
+
+    .unify{
+        width:30%;
+        height:248px;
+        gap:3%;
+    }
+    .unify_text{
+        max-width: 145px;
+    }
+    .share_code_track{
+        width:30%;
+        height:248px;
+        gap:3%;
+    }
+    .share_code_text{
+        max-width: 135px;
+    }
+
+    .featured_build_1{
+        width:0;
+        min-width:100%;
+        gap:3%;
+    }
+    .build_create_make_apps{
+        justify-content: space-around;
+    }
+    .git_unify_share{
+        justify-content: space-around;
+    }
+    .arrow_text_section1{
+        display:flex;
+        align-items:center;
+        gap:20px;
+        justify-content: end;
+        cursor: pointer;
+    }
+
+    .featured_build{
+        height:600px;
+    }
+
+    .pepsico_button{
+        display: none;
+    }
+
+    .nhs_button{
+        display: none;
+    }
+
+    .bosch_button{
+        display: none;
+    }
+
+    .gel_button{
+        display: none;
+    }
+
+
+    .to{
+        display: none;
+    }
+    .to_bring_fans{
+        background-size: contain;
+        height:342px;
+        margin-bottom: 0px;;
+    }
+    .to_1{
+        display: flex;
+        flex-direction: column;
+        background-color:#f8f9fa ;
+    }
+    .to_bring_1{
+        color:#242429;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.3;
+        text-align: left;
+        font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+        padding:20px;
+    }
+    .case_study_text_1{
+        color:#0062ad;
+        font-size:14px;
+        font-weight: 600;
+        background-color: transparent;
+        text-decoration:none;
+    }
+    .arrow_1{
+        height:12px;
+        width:auto;
+        padding-left:5px;
+    }
+
+    .case_study_text_1:hover{
+        text-decoration:underline;
+    }
+    .case_study_1:hover .arrow_1{
+        padding-left: 10px;
+    }
+
+    .case_study_1{
+        display:flex;
+        align-items: center;
+        padding:20px;
+    }
+    .bluedots{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:40px;
+        height:190px;
+    }
+
+    .blue_dot{
+        height:15px;
+        width:auto;
+        cursor:pointer;
+        filter:grayscale(100%);
+    }
+
+    .blue_dot:hover{
+        filter: grayscale(0%);
+    }
+    .modern_heading{
+        max-width: 432px;
+    }
+    .modern_button{
+        margin-top: 15px;
+    }
+    .innovate_faster{
+        width:30vw;
+    }
+    .innovate_faster_text{
+        font-size: 18px;
+        right:3px;
+        max-width: 275px;
+    }
+
+    .innovate_faster_image{
+        width:30vw;
+    }
+    .kubernetes{
+        width:29vw;
+    }
+    .dev_box{
+        width:29vw;
+    }
+    .container{
+        width:29vw;
+    }
+    .go_beyond{
+        width:30vw;
+        height:310px;
+    }
+    .spring{
+        width:29vw;
+    }
+    .go_beyond_text{
+        font-size: 18px;
+    }
+    .see_how{
+        background-size: contain;
+        height:457px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .see_how_text_section{
+        display:none;
+    }
+
+    .icon_section{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding:20px;
+        width:29px;
+        border:2px solid transparent;
+        border-radius: 1000px;
+        padding-left: 24px;
+        padding-right: 17px;
+        margin-bottom:50px;
+    }
+    .icon_section:hover{
+        border-color:#0062ad;
+    }
+    .blue_triangle{
+        height:30px;
+        width:auto; 
+    }
+    .see_how_text_section_1{
+        display: flex;
+        flex-direction: column;
+    }
+    .see_how_text_1{
+        color:#242429;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.3;
+        text-align: left;
+        font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+        padding-left: 20px;
+    }
+    .dev_stories_1{
+        background-color:transparent;
+        border:1px solid #0078d4;
+        border-radius:4px;
+        padding:10px 16px;
+        width:230px;
+        margin-left:20px;
+        margin-top:20px;
+    }
+    .developer_stories_1{
+        color:#0062ad;
+        font-size:14px;
+        font-weight:600;
+        text-align:center;
+        text-decoration:none;
+        line-height:1.5;
+        font-family:'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    }
+    .start_contact_new_section{
+        flex-direction: column;
+        align-items: center;
+    }
+   .start_building_section{
+    width:95vw;
+    height: 31vh;
+   }
+   .contact_specialist{
+    width:95vw;
+    height:31vh;
+   }
+   .contact_specialist_text2{
+    max-width: 100%;
+   }
+
+   .own_place{
+    width:95vw;
+    height:31vh;
+   }
+   .start_building_headline{
+    max-width:270px;
+   }
+
+   .footer_section2{
+    flex-direction: column;
+    gap:35px;
+   }
+
+   .plus{
+    display:block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+   }
+
+   .footer_explore{
+    flex-direction: row;
+    justify-content: space-between;
+    cursor:pointer;
+    background-color: #eaebec;
+    width:92vw;
+    padding:12px;
+    border-radius:4px;
+   }
+
+   .footer_products{
+    flex-direction: row;
+    justify-content: space-between;
+    cursor:pointer;
+    background-color: #eaebec;
+    width:92vw;
+    padding:12px;
+    border-radius:4px;
+   }
+
+   .footer_solutions{
+    flex-direction: row;
+    justify-content: space-between;
+    cursor:pointer;
+    background-color: #eaebec;
+    width:92vw;
+    padding:12px;
+    border-radius:4px;
+   }
+   .footer_partners{
+    flex-direction: row;
+    justify-content: space-between;
+    cursor:pointer;
+    background-color: #eaebec;
+    width:92vw;
+    padding:12px;
+    border-radius:4px;
+   }
+
+   .footer_section3{
+    flex-direction: column;
+    gap:20px;
+    align-items:flex-start;
+    
+   }
+
+   .terms1{
+    display: flex;
+   }
+
+   .privacy1{
+    display: flex;
+   }
+
+   .contact_us_1{
+    display: flex;
+   }
+
+   .contact_us_1{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+   }
+
+   .contact_us_1:hover{
+    text-decoration:underline;
+   }
+
+   .terms2{
+    display:none
+   }
+
+   .privacy2{
+    display:none;
+   }
+
+   .footer_section_3_2{
+    padding-left:50px;
+    padding-top:20px;
+   }
+
+   .contact_us{
+    display:none;
+   }
+   .featured_section{
+    min-width:158px;
+   }
+
+}
+
+@media screen and (max-width:767px){
+    .nav{
+        width:99%;
+        height:78px;
+    }
+
+    .window_icon{
+        height:30px;
+    }
+
+    .nav_section_1_2{
+        display: none;
+    }
+
+    .hamburger_icon{
+        display: flex;
+        width:45px;
+        height:auto;
+    }
+    .azure_nav_section{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav_section_1_1{
+        flex-direction: row-reverse;
+        gap:243px;
+    }
+
+    .three_dots{
+        display:none;
+    }
+
+    .nav_section_2_4{
+        margin-right:24px;
+    }
+        
+    .invent{
+        text-align: center;
+    }
+    .banner{
+        background-image: url(images/hero-mobile.png);
+        height:78vh;
+        align-items: center;
+    }
+    .main_heading{
+        text-align: center;
+    }
+
+    .build{
+        text-align: center;
     }
 }
 
