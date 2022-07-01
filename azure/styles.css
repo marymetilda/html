@@ -1,15 +1,15 @@
 
 @font-face{
-    font-family: "MAIN";
+    font-family: "MWF-MORAY-MDL2";
     src: url("fonts/latest.woff2");
-    font-weight:400;
+    font-weight:600;
     font-style:normal;
 }
 
 @font-face{
-    font-family: NORMAL;
+    font-family: "SegoeUI";
     src:url("fonts/SegoeUI-Roman-VF_web.woff2");
-    font-weight:600;
+    font-weight:400;
     font-style: normal;
 }
 
@@ -65,6 +65,7 @@
     display:flex;
     align-items: center;
     margin-left:-10px;
+    padding-right: 5px;
 }
 
 
@@ -97,7 +98,7 @@
 }
 
 .explore_text{
-    font-family:'MAIN';
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
     font-size:14px;
     font-weight:400;
     color:#1a1a1f;
@@ -125,7 +126,7 @@
 }
 
 .products_text{
-    font-family:'MAIN';
+    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
     font-size:14px;
     font-weight:400;
     color:#1a1a1f;
@@ -394,17 +395,20 @@ background-size:cover;
 
 .banner{
     width:100%;
-    display:flex;
-    flex-direction: column;
-    gap:20px;
     width: 100%;
     height:80vh;
     background-image: url("https://azurecomcdn.azureedge.net/cvt-493701653c65826061dc17c66113eb5d9e70cd831a30707034222f935a1a140d/images/page/home/hero-desktop.webp");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:50% 50%;
-    text-align:left;
     padding-top:75px;
+}
+.banner_text_section{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    text-align:left;
+    width:50%;
 }
 
 .invent{
@@ -657,12 +661,14 @@ background-size:cover;
 .card_section1{
     display:flex;
     gap:30px;
+    justify-content: center;
 }
 
 .card_section1_1{
     display:flex;
     flex-direction:column;
     gap:28px;
+    
 }
 
 .new_to_azure{
@@ -3349,6 +3355,7 @@ background-size:cover;
     .footer_section2{
         justify-content: space-between;
         padding:20px;
+        gap:0px;
     }
 
     .select_button{
