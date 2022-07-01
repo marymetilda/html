@@ -45,12 +45,12 @@
 
 .nav_section2{
     display:flex;
-    gap:27px;
+    gap:35px;
 }
 
 .nav_section_2_2{
     display:flex;
-    gap:10px;
+    gap:16px;
     align-items: center;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .explore_text{
-    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-family:'MAIN';
     font-size:14px;
     font-weight:400;
     color:#1a1a1f;
@@ -125,7 +125,7 @@
 }
 
 .products_text{
-    font-family:'BAPIMDL2','MWF-MORAY-MDL2';
+    font-family:'MAIN';
     font-size:14px;
     font-weight:400;
     color:#1a1a1f;
@@ -221,7 +221,7 @@
     border-radius:5px;
     border:.1px solid #27272b;
     line-height:1.5;
-    height:30px;
+    height:33px;
 }
 
 .search_input{
@@ -294,7 +294,7 @@
 }
 
 .account{
-    height:30px;
+    height:33px;
     background-color:#89c402;
     border:1px solid #6f9e02;
     border-radius:4px;
@@ -304,7 +304,7 @@
 }
 
 .account_text{
-    font-size:12px;
+    font-size:11px;
     font-weight:600;
     line-height:1;
     text-align:center;
@@ -1304,6 +1304,7 @@ background-size:cover;
 
 .start_section{
     background-color:#f8f9fa;
+    padding-bottom: 55px;
 }
 
 .innovating_with_azure{
@@ -1690,7 +1691,7 @@ background-size:cover;
     width:610px;
     height:310px;
     border-radius:6px;
-    border:1px solid transparent;
+    border:1px solid white;
     box-shadow: 0 2px 5px rgb(0 0 0 / 14%);
     display: flex;
     align-items: flex-end;
@@ -2018,7 +2019,7 @@ background-size:cover;
 
 .start_building_section{
     height:230px;
-    width:400px;
+    width:395px;
     background-color:#243a5e;
     border-radius:6px;
     box-shadow:0 2px 5px rgb(0 0 0 / 14%);
@@ -2040,7 +2041,7 @@ background-size:cover;
 
 .contact_specialist{
     height:230px;
-    width:400px;
+    width:395px;
     background-color:#242429;
     border-radius:6px;
     box-shadow:0 2px 5px rgb(0 0 0 / 14%);
@@ -2102,7 +2103,7 @@ background-size:cover;
 .own_place{
     background-color:#0062ad;
     height:230px;
-    width:400px;
+    width:395px;
     border-radius:6px;
     box-shadow:0 2px 5px rgb(0 0 0 / 14%);
     border:1px solid transparent;
@@ -2153,10 +2154,10 @@ background-size:cover;
 
 .start_contact_new_section{
     display:flex;
-    gap:20px;
+    gap:30px;
     padding-left:15px;
     padding-top:40px;
-    padding-bottom:40px;
+    padding-bottom:52px;
 }
 
 .footer_section_image{
@@ -2176,9 +2177,9 @@ background-size:cover;
 
 .mobile_app{
     display:flex;
-    gap:20px;
+    gap:10px;
     background-color:#eaebec;
-    width:250px;
+    width:204px;
     padding:10px;
     align-items:center;
     border-radius:4px;
@@ -2360,7 +2361,7 @@ background-size:cover;
 .footer_explore{
     display:flex;
     flex-direction:column;
-    gap:30px;
+    gap:20px;
 }
 
 .product_headline{
@@ -2471,7 +2472,7 @@ background-size:cover;
 .footer_products{
     display:flex;
     flex-direction:column;
-    gap:30px;
+    gap:20px;
 }
 
 .solutions_headline{
@@ -2565,7 +2566,7 @@ background-size:cover;
 .footer_solutions{
     display:flex;
     flex-direction:column;
-    gap:30px;
+    gap:20px;
 }
 
 .partners_headline{
@@ -2627,7 +2628,7 @@ background-size:cover;
 .footer_partners{
     display:flex;
     flex-direction:column;
-    gap:30px;
+    gap:20px;
 }
 
 .footer_headline{
@@ -2696,6 +2697,32 @@ background-size:cover;
 }
 .footer_link:hover{
     text-decoration:underline;
+}
+.cookies_1{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.cookies_1:hover{
+    text-decoration: underline;
+}
+.cookies_2{
+    color:#1a1a1f;
+    text-decoration:none;
+    border:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.5;
+    font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    display: none;
 }
 .footer_link1{
     color:#1a1a1f;
@@ -2845,6 +2872,10 @@ background-size:cover;
     display: flex;
     gap:20px;
     padding-right: 2vw;
+}
+.footer_section_3_2 div{
+    display: flex;
+    gap:10px;
 }
 
 .copy_right_1{
@@ -3758,7 +3789,6 @@ background-size:cover;
         font-size: 18px;
     }
     .see_how{
-        background-size: contain;
         height:457px;
         margin-top: 50px;
         display: flex;
@@ -3827,11 +3857,11 @@ background-size:cover;
     }
    .start_building_section{
     width:95vw;
-    height: 31vh;
+    height: 34vh;
    }
    .contact_specialist{
     width:95vw;
-    height:31vh;
+    height:34vh;
    }
    .contact_specialist_text2{
     max-width: 100%;
@@ -3839,7 +3869,7 @@ background-size:cover;
 
    .own_place{
     width:95vw;
-    height:31vh;
+    height:34vh;
    }
    .start_building_headline{
     max-width:270px;
@@ -3965,7 +3995,7 @@ background-size:cover;
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .nav{
         width:99%;
         height:78px;
@@ -4594,10 +4624,17 @@ background-size:cover;
     .modern{
         height:900px;
         flex-direction: column;
+        padding-left: 0px;
+    }
+    .modern_text_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .modern_heading{
         max-width: 100%;
+        text-align: center;
     }
     .discover_headline{
         font-size: 15px;
@@ -4678,7 +4715,7 @@ background-size:cover;
     .start_building_section{
     flex-direction: row;
     align-items: center;
-    height:10vh;
+    height:15vh;
     }
     .start_building_image{
         height:40px;
@@ -4691,7 +4728,7 @@ background-size:cover;
     .contact_specialist{
         flex-direction: row;
         align-items: center;
-        height:10vh;
+        height:15vh;
     }
     .contact_specialist_image{
         height:40px;
@@ -4705,7 +4742,7 @@ background-size:cover;
     .own_place{
         flex-direction: row;
         align-items: center;
-        height:10vh;
+        height:15vh;
     }
 
     .own_place_image{
@@ -4874,6 +4911,91 @@ background-size:cover;
     }
 }
 
+@media screen and (max-width:425px){
+    .banner{
+        height:105vh;
+    }
+    .microsoft{
+        width:93%;
+    }
+    .featured_section{
+        width:90%;
+    }
+    .git_hub_security1{
+        gap:0px;
+    }
+    .share_code_track{
+        gap:0px;
+    }
+    .screen_img_section{
+        border:10px solid black;
+    }
+    .featured_build{
+        height:1590px;
+    }
+    .bluedots{
+        align-items: baseline;
+        gap:40px;
+    }
+    .modern_image_img{
+        width:74vw;
+    }
+    .modern{
+        padding-left: 0px;
+        height:720px;
+    }
+    .modern_heading{
+        text-align: center;
+    }
+    .modern_text_section{
+        align-items: center;
+    }
+    .scroll_cards{
+        padding-left:20px;
+       }
+       .kubernetes{
+        width:74vw;
+        height:290px;
+       }
+       .dev_box{
+        width:74vw;
+        height:290px;
+       }
+       .discover_headline{
+        padding-bottom: 29px;
+       }
+       .dev_box_text{
+        font-size: 14px;
+       }
+       .coming_dev_box{
+        width:74vw;
+        gap:10px;
+       }
+       .intel_text{
+        font-size: 14px;;
+       }
+       .intel_data{
+        width:74vw;
+        gap:0px;
+        height:290px;
+       }
+       .intelligent_img{
+        width:74vw;
+       }
+       .container{
+        width:74vw;
+        height:290px;
+       }
+       .spring{
+        width:74vw;
+        height:290px;
+       }
+       .scroll_cards{
+        padding-bottom: 20px;
+       }
+
+}
+
 @media screen and (max-width:412px){
 
 .featured_build{
@@ -5017,7 +5139,7 @@ background-size:cover;
         gap:10px;
     }
     .banner{
-        height:228vh;
+        height:155vh;
     }
     .on_premises{
         height:215px;
@@ -5051,6 +5173,8 @@ background-size:cover;
     }
     .start{
         text-align:center;
+        font-size: 12px;
+        width:91%;
     }
     .build_and_deploy{
         height:261px;
@@ -5114,12 +5238,14 @@ background-size:cover;
    }
    .innovating_with_azure{
     height:70px;
+    font-size: 13px;
    }
    .to_bring_fans{
     background-image: url(images/nba-mobile.webp);
     height: 65vh;
     margin-top:-15px;
    }
+
    .bluedots{
     padding-top:10px;
     align-items: flex-start;
@@ -5130,19 +5256,51 @@ background-size:cover;
    }
    .modern_heading{
     text-align: center;
-    max-width:200px;
+    max-width:235px;
    }
    .modern{
     height:743px;
+    padding-left: 0px;
    }
-   .scroll_cards{
-    padding-left:20px;
+   .modern_button{
+    width:220px;
    }
-   .kubernetes{
-    width:74vw;
-    height:285px;
+   
+   .footer_explore{
+    width:78vw;
    }
-   .discover_headline{
-    padding-bottom: 29px;
+   .footer_products{
+    width:78vw;
    }
+   .footer_solutions{
+    width:78vw;
+   }
+   .footer_partners{
+    width:78vw;
+   }
+   .cookies_1{
+    display: none;
+   }
+   .cookies_2{
+    display: flex;
+   }
+   .cookies_2:hover{
+    text-decoration: underline;
+   }
+   .footer_section_3_2 div{
+    display: flex;
+    gap:10px;
+   }
+   .footer_sec{
+    display: flex;
+    padding-left: 0px;
+    gap:10px;
+   }
+   .privacy2{
+    display: none;
+   }
+   .contact_us_2{
+    display: none;
+   }
+  
 }
