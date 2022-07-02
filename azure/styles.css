@@ -17,7 +17,9 @@
     margin:0px;
     padding:0px;
 }
-
+body{
+    overflow-x: hidden;
+}
 .nav{
     height:55px;
     width:100%;
@@ -408,7 +410,9 @@ background-size:cover;
     flex-direction: column;
     gap:20px;
     text-align:left;
-    width:50%;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .invent{
@@ -662,6 +666,8 @@ background-size:cover;
     display:flex;
     gap:30px;
     justify-content: center;
+    max-width:1310px;
+    margin:auto;
 }
 
 .card_section1_1{
@@ -1038,6 +1044,7 @@ background-size:cover;
 
 .build_create_make_apps{
     display:flex;
+    justify-content: center;
     gap:29px;
 }
 
@@ -1216,6 +1223,7 @@ background-size:cover;
 
 .git_unify_share{
     display:flex;
+    justify-content: center;
     gap:29px;
 }
 
@@ -1229,28 +1237,25 @@ background-size:cover;
 .featured_build_1{
     display:flex;
     gap:83px;
-    width: 75vw;
-    min-width: 75vw;
+    width: 75%;
+    justify-content: center;
 
 }
 
 .featured_build{
     display:flex;
     gap:20px;
-    /* width: 100vw; */
-    overflow: hidden;
+    width: 100vw;
+    max-width: 1310px;
+    margin:auto;
 }
 
 .screen-main{
-    width:22%;
+    width:25%;
     
 }
 
 .screen_image_img{
-    height:470px;
-}
-
-.screen_image{
     height:470px;
     border-top:28px;
     border-left:28px;
@@ -1260,7 +1265,10 @@ background-size:cover;
     border-style:solid;
     border-radius:12px 0px  0px 12px;
     box-shadow:0 10px 20px rgb(0 0 0 / 14%);
-    
+}
+
+.screen_image{
+    height:530px;
     
 }
 
@@ -1283,7 +1291,6 @@ background-size:cover;
 
 .screen_image_section{
     width:100%;
-    overflow: hidden;
     display:flex;
     flex-direction:column;
     gap:10px;
@@ -1305,6 +1312,10 @@ background-size:cover;
 
 .arrow_text_section1{
     display: none;
+}
+.start{
+    max-width: 1310px;
+    margin: auto;
 }
 
 
@@ -1514,6 +1525,7 @@ background-size:cover;
     align-items: center;
     gap: 20px;
     padding-left:50px;
+    justify-content: center;
 }
 
 .modern_image_img{
@@ -1887,6 +1899,7 @@ background-size:cover;
 .discover_cards{
     display:flex;
     flex-direction:column;
+    align-items: center;
     gap:30px;
 }
 
@@ -1900,7 +1913,7 @@ background-size:cover;
 .see_how{
     height:600px;
     background-image:url(images/desktop123.webp);
-    background-size:contain;
+    background-size:cover;
     background-repeat:no-repeat;
     background-position:50% 50%;
     margin-top:90px;
@@ -2160,6 +2173,7 @@ background-size:cover;
 
 .start_contact_new_section{
     display:flex;
+    justify-content: center;
     gap:30px;
     padding-left:15px;
     padding-top:40px;
@@ -2237,6 +2251,8 @@ background-size:cover;
     align-items: baseline;
     padding-left:20px;
     padding-top:40px;
+    max-width: 1310px;
+    margin:auto;
 }
 .icons{
     display: flex;
@@ -2851,9 +2867,12 @@ background-size:cover;
 
 .footer_section2{
     display:flex;
+    justify-content: space-around;
     gap:70px;
     padding-left:20px;
     padding-top:40px;
+    max-width: 1310px;
+    margin:auto;
 }
 
 .plus{
@@ -2872,6 +2891,8 @@ background-size:cover;
     display:flex;
     align-items:flex-end;
     justify-content: space-between;
+    max-width: 1310px;
+    margin:auto;
 }
 
 .footer_section_3_2{
@@ -2899,9 +2920,11 @@ background-size:cover;
     display:flex;
     gap:15px;
     justify-content: flex-end;
-    padding-right:20px;
+    padding-right:2%;
     padding-bottom:50px;
     padding-top:20px;
+    max-width: 1310px;
+    margin:auto;
 }
 
 .change_langauge{

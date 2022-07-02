@@ -1,0 +1,35 @@
+@font-face {
+    font-family:"Bold";
+    src: url("fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2");
+    font-weight:700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Book";
+    src: url("fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Medium";
+    src: url("fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2");
+    font-weight:500;
+    font-style: normal;
+}
+@font-face {
+    font-family:Normal ;
+    src: url("/fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Small";
+    src: url("fonts/KFOmCnqEu92Fr1Mu4mxK.woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.logo{
+    color:rgb(233, 77, 77);
+}
